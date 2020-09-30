@@ -1,0 +1,19 @@
+.nav {
+    grid-area: n;
+    background-color: whitesmoke;
+    border: 1px solid #6d6e71;
+    border-radius: 10px;
+    margin-left: 10px;
+
+}
+.nav a  {
+    color: #6d6e71;
+    background: transparent;
+    font-family:"Lucida Bright", sans-serif;
+    padding-left: 10px;
+}
+
+.nav ul {
+    padding-left: 20px;
+    padding-top: 15px;
+}
