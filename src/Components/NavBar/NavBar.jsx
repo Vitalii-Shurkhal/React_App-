@@ -17,12 +17,7 @@ const Nav = () => {
                     <a href="">Messages</a>
                 </ul>
             </div>
-            <div>
-                <ul>
-                    <i className="fas fa-envelope"></i>
-                    <a href="">Comments</a>
-                </ul>
-            </div>
+           
             <div>
                 <ul>
                     <i className="far fa-newspaper"></i>
