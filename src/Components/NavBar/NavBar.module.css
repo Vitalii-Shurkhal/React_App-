@@ -6,14 +6,20 @@
     margin-left: 10px;
 
 }
-.nav a  {
+
+.nav a {
     color: #6d6e71;
     background: transparent;
-    font-family:"Lucida Bright", sans-serif;
+    font-family: "Lucida Bright", sans-serif;
     padding-left: 10px;
+    text-decoration: none;
 }
 
 .nav ul {
     padding-left: 20px;
     padding-top: 15px;
+}
+
+a.activeLink {
+    color: goldenrod;
 }

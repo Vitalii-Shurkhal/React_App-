@@ -1,3 +1,30 @@
-.div {
-    color: red;
+.dialogs {
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+
+
+}
+
+.dialogs_items {
+    padding: 10px;
+
+
+}
+
+.dialog a {
+    text-decoration: none;
+
+}
+
+.messages a {
+    padding: 10px;
+}
+
+.newMessage {
+    margin: 10px 0 0 10px;
+}
+
+.sendBtn {
+    display: block;
+    margin: 5px 0 0 10px;
 }

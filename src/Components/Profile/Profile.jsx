@@ -5,15 +5,15 @@ import Description from './Description/Description'
 import Ava from "./Ava/Ava";
 import Wallpaper from "./Wallpaper/Wallpaper";
 
-const Profile = () => {
+const Profile = (props) => {
     return (
         <div className={styles.content}>
-           <Wallpaper />
+            <Wallpaper />
             <div>
                 <Ava />
                 <Description />
             </div>
-            <MyPosts />
+            <MyPosts state={props.state} addPost={props.addPost} />
         </div>
     );
 };
